@@ -94,9 +94,6 @@ public class GoalSeeker : MonoBehaviour
                 goal.value += bestThingToDo.GetGoalChange(goal);
                 goal.value = Mathf.Max(goal.value, 0);
             }
-
-            //Debug.Log("New Stats: ");
-            //PrintGoals();
         }
 
         if (Input.GetKeyDown(KeyCode.Q))

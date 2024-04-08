@@ -240,7 +240,6 @@ GameObject:
   - component: {fileID: 363842617}
   - component: {fileID: 363842616}
   - component: {fileID: 363842615}
-  - component: {fileID: 363842614}
   m_Layer: 0
   m_Name: Part (1)
   m_TagString: Untagged
@@ -263,19 +262,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1597835923}
   m_LocalEulerAnglesHint: {x: 0, y: 18.549, z: 0}
---- !u!114 &363842614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 363842612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6038921ebacf6c243ab337199297f4ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  display: {fileID: 0}
 --- !u!65 &363842615
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -760,9 +746,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 365006219}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -432, y: 215}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 118, y: -42}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &672449555
@@ -1305,9 +1291,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 365006219}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -437.7081, y: 120}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 112.2919, y: -137}
   m_SizeDelta: {x: 188.5838, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &828405573
@@ -1826,7 +1812,6 @@ GameObject:
   - component: {fileID: 1229186088}
   - component: {fileID: 1229186087}
   - component: {fileID: 1229186086}
-  - component: {fileID: 1229186085}
   m_Layer: 0
   m_Name: Part
   m_TagString: Untagged
@@ -1849,19 +1834,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1597835923}
   m_LocalEulerAnglesHint: {x: 0, y: 18.549, z: 0}
---- !u!114 &1229186085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1229186083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6038921ebacf6c243ab337199297f4ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  display: {fileID: 0}
 --- !u!65 &1229186086
 BoxCollider:
   m_ObjectHideFlags: 0
